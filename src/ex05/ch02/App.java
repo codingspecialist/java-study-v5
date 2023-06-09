@@ -22,5 +22,12 @@ public class App {
         attack(z1, d1);
         attack(d1, z2);
         attack(z1, z2);
+
+        ProtossUnit r1 = new River();
+        r1.setHp(100);
+        r1.setAttack(80);
+        r1.setName("리버1");
+
+        attack(r1, z1);
     }
 }
